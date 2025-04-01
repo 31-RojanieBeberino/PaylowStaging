@@ -1,3 +1,6 @@
+
+
+
 // Function to show the next step and update the progress bar
 function nextStep(step) {
     // Hide current step

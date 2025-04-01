@@ -349,6 +349,140 @@ button, label{
   padding:10px 25px;
 }
 
+.card-option {
+  border: 2px solid #ddd;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 8px;
+  width: 220px;
+  height: 180px;
+}
+
+.card-option input {
+  display: none;
+}
+
+.card-option.selected {
+  border-color: #198754;
+  box-shadow: 0 0 10px rgba(25, 135, 84, 0.5);
+}
+
+.card-option.selected::after {
+  content: "✔";
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  color: #198754;
+  font-weight: bold;
+}
+
+.card-option p{
+  text-align: center!important;
+  font-size: 15px!important;
+  font-weight: 600!important;
+  color:#000!important;
+}
+
+
+.nav-tabs .nav-link {
+  color: #000;
+  font-weight: bold;
+}
+.nav-tabs .nav-link.active {
+  color: #d70000;
+  border-bottom: 3px solid #d70000;
+}
+.slider-container {
+  text-align: center;
+  width: 50%;
+}
+
+
+.slider-container .form-range{
+  background-color: #002b87;
+}
+
+
+.price-range {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.card-option {
+  border: 2px solid #ddd;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 8px;
+  width: 220px;
+  height: 150px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-option p{
+  margin-top: 0px!important;
+}
+
+.card-option:hover {
+  border-color: #d70000;
+}
+
+
+
+/* Customize the range slider track */
+.slider-container input[type="range"] {
+  -webkit-appearance: none;
+  width: 80%;
+  height: 6px;
+  border-radius: 5px;
+  background: #ddd;
+  outline: none;
+  transition: background 0.3s;
+  cursor: pointer;
+}
+
+/* Change background color when interacting */
+.slider-container input[type="range"]:hover {
+  background: #c4c4c4;
+}
+
+/* Style the range thumb (slider button) for Chrome, Safari, Edge */
+.slider-container input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #d70000;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.2s;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Thumb style when active */
+.slider-container input[type="range"]::-webkit-slider-thumb:active {
+  background: #a00000;
+}
+
+/* Thumb style for Firefox */
+.slider-container input[type="range"]::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: #d70000;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.2s;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+
 /* Body Form */
 
 /* Additional custom styles for the form */
