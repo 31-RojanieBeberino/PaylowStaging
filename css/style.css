@@ -440,7 +440,6 @@ button, label{
 
 /* Customize the range slider track */
 .slider-container input[type="range"] {
-  -webkit-appearance: none;
   width: 80%;
   height: 12px;
   border-radius: 5px;
