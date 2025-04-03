@@ -31,6 +31,31 @@
     .selectRates .dropdown-toggle{
         font-size:18px!important;
     }
+
+    .form-inputs{
+        flex-direction: column;
+    }
+
+    .body-form h6{
+        font-size: 30px;
+    }
+
+    .form-inputs .frmInput{
+        width: 100%!important;
+    }
+
+    .btn-group{
+        width: 100%!important;
+    }
+
+    #step6 .form-title label{
+        font-size: 14px!important;
+        padding: 10px;
+    }
+
+    .genderInput{
+        width: 100%;
+    }
 }
 
 

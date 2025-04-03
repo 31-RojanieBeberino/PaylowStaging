@@ -89,8 +89,8 @@
                 <h6>Life Insurance Quote</h6>
 
                     <div class="tab-form p-3">
-                        <div class="form-inputs d-flex justify-content-center align-items-center gap-3 w-50">
-                            <div class="mb-3">
+                        <div class="form-inputs d-flex justify-content-center align-items-center gap-3 genderInput">
+                            <div class="mb-3 genderInput">
                                 <label for="lif_gender" class="form-label">Gender<span id="asterisk">*</span></label>
                                 <select class="form-select" aria-label="Gender">
                                     <option selected>Select Your Gender</option>
@@ -232,8 +232,8 @@
                     <div class="form-title text-center mb-4">
                         <div class="d-flex flex-column gap-4 align-items-center">
                             <h6>In Your Opinion, How Healthy Are You?</h6>
-                            <div class="dropdown w-50 d-flex justify-content-center hhry">
-                                <button class="btn btn-secondary dropdown-toggle w-50 d-flex justify-content-between align-items-center" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <div class="dropdown w-lg-50 w-100 d-flex justify-content-center hhry">
+                                <button class="btn btn-secondary dropdown-toggle genderInput d-flex justify-content-between align-items-center" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     <div class="d-flex gap-2">
                                         <i class="bi bi-heart-pulse"></i> Health 
                                     </div>
@@ -437,30 +437,182 @@
                 <div class="step" id="step11">
                     <div class="form-title text-center mb-4">
                         <div class="d-flex flex-column gap-4 align-items-center">
-                            <h6> Please Select Your Top Priority </h6>
-                            <p>Or Click Here To See All Categories</p>
-                            <div class="form-inputs d-flex justify-content-center align-items-center gap-3 w-100">
-                                <!-- Option 1 -->
-                                <label class="card-option position-relative">
-                                    <input type="checkbox" name="insurance" value="term">
-                                    <img src="assets/noun-insurance-7573687.png" width="50">
-                                    <p class="mt-2">Term</p>
-                                </label>
 
-                                <!-- Option 2 -->
-                                <label class="card-option position-relative">
-                                    <input type="checkbox" name="insurance" value="return-of-premium">
-                                    <img src="assets/noun-money-7623289.png" width="50">
-                                    <p class="mt-2">Premium returned if I outlive my term duration <br><strong>Return of Premium</strong></p>
-                                </label>
+                            <div class="initialResultSect">
+                                <div class="initresTop d-flex">
+                                    <img class="initresLogo" src="assets/newLogo.webp">
+                                    <div class="initTitle">
+                                        <p>Life Insurance Amount</p>
+                                        <h6>$500,000</h6>
+                                    </div>
+                                    <div class="initSash">
+                                        <p>lowest price</p>
+                                    </div>
+                                </div>
 
-                                <!-- Option 3 -->
-                                <label class="card-option position-relative">
-                                    <input type="checkbox" name="insurance" value="accidental-death">
-                                    <img src="assets/noun-insurance-7599749.png" width="50">
-                                    <p class="mt-2">I can't qualify for life insurance <br><strong>Accidental Death</strong></p>
-                                </label>
+                                <div class="initResultCards">
+                                    <div class="initresItems">
+                                        <h5>Monthly Premium</h5>
+                                        <h6>$23.10</h6>
+                                    </div>
+                                    <div class="initresItems">
+                                        <h5>Quote Summary</h5>
+                                    </div>
+                                    <div class="initresItems">
+                                        <h5>Term Years</h5>
+                                        <h6>10</h6>
+                                    </div>
+                                    <div class="initresItems">
+                                        <h5>AM Best Rating</h5>
+                                        <h6>A</h6>
+                                    </div>
+                                    <div class="initresItems">
+                                        <h5>Physical Exam</h5>
+                                        <h6>Yes</h6>
+                                    </div>
+                                </div>
+
+                                <div class="btns d-flex justify-content-center gap-3 mt-5 w-100 p-3 bottomSec">
+                                    <button type="button" class="btn btn-danger prev-btn" onclick="nextStep(12)">CONTINUE</button>
+                                </div>
+
+                                <div class="d-flex justify-content-center">
+                                    <a href="#" class="initPolDeta">
+                                        Show Policy Details
+                                    </a>
+                                </div>
                             </div>
+
+                            <h6>Or Select Different Coverage</h6>
+
+                            <div class="cardCoverage">
+                                <div class="covItem">
+                                    <p class="topCard">lowest price</p>
+                                    <div class="covItemDetail">
+                                        <img src="assets/newLogo.webp">
+                                        <p>$ 23 Monthly </p>
+                                    </div>
+                                </div>
+                                <div class="covItem">
+                                    <p class="topCard">lowest price</p>
+                                    <div class="covItemDetail">
+                                        <img src="assets/newLogo.webp">
+                                        <p>$ 23 Monthly </p>
+                                    </div>
+                                </div>
+                                <div class="covItem">
+                                    <p class="topCard">lowest price</p>
+                                    <div class="covItemDetail">
+                                        <img src="assets/newLogo.webp">
+                                        <p>$ 23 Monthly </p>
+                                    </div>
+                                </div>
+                                <div class="covItem">
+                                    <p class="topCard">lowest price</p>
+                                    <div class="covItemDetail">
+                                        <img src="assets/newLogo.webp">
+                                        <p>$ 23 Monthly </p>
+                                    </div>
+                                </div>
+                                <div class="covItem">
+                                    <p class="topCard">lowest price</p>
+                                    <div class="covItemDetail">
+                                        <img src="assets/newLogo.webp">
+                                        <p>$ 23 Monthly </p>
+                                    </div>
+                                </div>
+                                <div class="covItem">
+                                    <p class="topCard">lowest price</p>
+                                    <div class="covItemDetail">
+                                        <img src="assets/newLogo.webp">
+                                        <p>$ 23 Monthly </p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <h6>Change The Filters Below For Different Results</h6>
+
+
+                            <div class="tab-form p-3">
+                                
+                                <div class="form-inputs d-flex justify-content-center align-items-start gap-3">
+                                    <div class="mb-3 frmInput">
+                                        <input type="text" class="form-control" id="lif-DeathBenefit" placeholder="Death Benefit" required>
+                                        <p>Desired Insurance Amount. Get Help Get Help Deciding How Much You Need.</p>
+                                    </div>          
+                                    <div class="mb-3 frmInput">
+                                        <select class="form-select" aria-label="Modeofpreium">
+                                            <option selected>Mode of preium</option>
+                                            <option value="lif_preiumOne">Mode of preium One</option>
+                                            <option value="lif_preiumTwo">Mode of preium Two</option>
+                                            <option value="lif_preiumThree">Mode of preium Three</option>
+                                        </select>
+                                        <p>Choose From Annual, Semi-Annual, Quarterly, Or Monthly</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="form-inputs d-flex justify-content-center align-items-center gap-3">
+                                    <div class="mb-3 frmInput">
+                                        <select class="form-select" aria-label="lif_product">
+                                            <option selected>Product</option>
+                                            <option value="lif_productOne">Product One</option>
+                                            <option value="lif_productTwo">Product Two</option>
+                                            <option value="lif_productThree">Product Three</option>
+                                        </select>
+                                    </div>
+                                    <div class="mb-3 frmInput">
+                                        <select class="form-select" aria-label="lif_Termleght">
+                                            <option selected>Term leght</option>
+                                            <option value="lif_TermleghtOne">Term leght One</option>
+                                            <option value="lif_TermleghtTwo">Term leght Two</option>
+                                            <option value="lif_TermleghtThree">Term leght Three</option>
+                                        </select>
+                                    </div>
+                                    <div class="mb-3 frmInput">
+                                        <select class="form-select" aria-label="Living_Benefits">
+                                            <option selected>Living Benefits only</option>
+                                            <option value="lif_LivingBenefitsOne">Living Benefits One</option>
+                                            <option value="lif_LivingBenefitsTwo">Living Benefits Two</option>
+                                            <option value="lif_LivingBenefitsThree">Living Benefits Three</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+
+                                <div class="form-inputs d-flex justify-content-center align-items-center gap-3 w-100">
+                                    <div class="mb-3 frmInput">
+                                        <select class="form-select" aria-label="lif_State">
+                                            <option selected>State</option>
+                                            <option value="lif_StateOne">State One</option>
+                                            <option value="lif_StateTwo">State Two</option>
+                                            <option value="lif_StateThree">State Three</option>
+                                        </select>
+                                    </div>
+                                </div>
+        
+                                <div class="form-inputs d-flex justify-content-center align-items-start gap-3 w-100">
+                                    <div class="mb-3 frmInput">
+                                        <input type="text" class="form-control" id="lif-HealthClass" placeholder="Health Class" required>
+                                    </div>  
+                                    <div class="mb-3 frmInput">
+                                        <select class="form-select" aria-label="SaveAge">
+                                            <option selected>Save Age</option>
+                                            <option value="lif_SaveAgeOne">Save Age One</option>
+                                            <option value="lif_SaveAgeTwo">Save Age Two</option>
+                                            <option value="lif_SaveAgeThree">Save Age Three</option>
+                                        </select>
+                                        <p>Backdate Your Policy's Effective Date To Reduce Your Issue Age.</p>
+                                    </div>
+                                </div>
+        
+                                <div class="btns d-flex justify-content-center gap-3 mt-5 w-100 p-3 bottomSec">
+                                    <button type="button" class="btn btn-danger prev-btn" onclick="nextStep(12)">Re Run Quote</button>
+                                </div>
+                                
+                            </div>
+
+                            
                             <div class="btns d-flex justify-content-between gap-3 mt-5 w-100 p-3 bottomSec">
                                 <button type="button" class="btn btn-primary prev-btn" onclick="prevStep(10)">Previous</button>
                                 <button type="button" class="btn btn-danger next-btn" onclick="nextStep(12)">NEXT</button>
