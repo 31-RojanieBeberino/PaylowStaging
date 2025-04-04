@@ -131,4 +131,51 @@
     .footer .btn-quote {
         width: 100%;
     }
+
+    .body-form{
+        padding: 0px;
+    }
+
+    .slider-container, .covItem{
+        width: 100%;
+    }
+
+    .initResultCards{
+        flex-direction: column;
+    }
+
+    .initresTop{
+        flex-direction: column;
+    }
+    
+    .initresLogo{
+        position: relative;
+        width: 200px;
+        margin-bottom: 20px;
+    }
+
+    .logoTextSec{
+        flex-direction: column;
+    }
+
+    .logoTextSec img{
+        margin-bottom: 20px;
+    }
+
+    .tab-form{
+        width: 100%;
+    }
+
+    .tabsbar{
+        flex-direction: column;
+    }
+
+    .statusSec, .PartiesSec{
+        flex-direction: column;
+    }
+
+
+    .tabLslide{
+        flex: 1!important;
+    }
 }

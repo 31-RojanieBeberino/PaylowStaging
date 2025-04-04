@@ -285,7 +285,7 @@
                     <div class="form-title text-center mb-4">
                         <div class="d-flex flex-column gap-4 align-items-center">
                             <h6> What Is Your Height And Weight? </h6>
-                            <div class="form-inputs d-flex justify-content-center align-items-center gap-3 w-50">
+                            <div class="form-inputs d-flex justify-content-center align-items-center gap-3 genderInput">
                                 <div class="mb-3 frmInput">
                                     <select class="form-select" aria-label="lif-insDtlsMailState">
                                         <option value="lif-5-4">5'4'</option>
@@ -534,7 +534,7 @@
                             <h6>Change The Filters Below For Different Results</h6>
 
 
-                            <div class="tab-form p-3">
+                            <div class="tab-form p-3 w-100">
                                 
                                 <div class="form-inputs d-flex justify-content-center align-items-start gap-3">
                                     <div class="mb-3 frmInput">
@@ -621,6 +621,611 @@
                     </div>
                 </div>
 
+
+
+                <!-- Step 12 -->
+                <div class="step" id="step12">
+                    <div class="form-title text-center mb-4">
+                        <div class="d-flex flex-column gap-4 align-items-center">
+                            <h6>Jane's Contact Information</h6>
+                            <p>We Don't Sell Your Information To Third Parties.</p>
+                            <div class="tab-form">
+                                <div class="form-inputs d-flex justify-content-center align-items-center gap-3 w-100">
+                                    <div class="mb-3 frmInput">
+                                        <input type="text" class="form-control" id="userlif-FirstName" placeholder="First Name" required>
+                                    </div>
+                                    <div class="mb-3 frmInput">
+                                        <input type="text" class="form-control" id="userlif-LastName" placeholder="Last Name" required>
+                                    </div>
+                                    <div class="mb-3 frmInput">
+                                        <input type="email" class="form-control" id="userlif-Email" placeholder="Email" required>
+                                    </div>
+                                    <div class="mb-3 frmInput">
+                                        <input type="tel" class="form-control" id="userlif-PhoneNumber" placeholder="Phone Number" required>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h4 style="width: 100%; text-align: left; color:#002b87;">Send Jane A Link To This Application?</h4>
+
+                            <div class="w-100 d-flex justify-content-start">
+                                <div class="btn-group" role="group" aria-label="User Link">
+                                    <input type="radio" class="btn-check" name="userLink" id="Yes" autocomplete="off" checked>
+                                    <label class="btn btn-outline-dark px-4" for="Yes">
+                                        Yes
+                                    </label>
+                            
+                                    <input type="radio" class="btn-check" name="userLink" id="No" autocomplete="off">
+                                    <label class="btn btn-outline-dark px-4" for="No">
+                                        No
+                                    </label>
+                                </div>
+                            </div>
+
+
+                            <div class="w-100 d-flex gap-3 justify-content-start">
+                                <div class="genderInput d-flex align-items-center logoTextSec">
+                                    <img class="genderInput" src="assets/newLogo.webp">
+                                    <p class="genderInput" style="text-align: center; font-size: 15px; color:#193A99;">SAT - 10 Year $23.10/Mo. <br>(Click To View Compliance)</p>
+                                </div>
+                            </div>
+
+                            <div class="btns d-flex justify-content-between gap-3 mt-5 w-100 p-3 bottomSec">
+                                <button type="button" class="btn btn-primary prev-btn" onclick="prevStep(11)">Previous</button>
+                                <button type="button" class="btn btn-danger next-btn" onclick="nextStep(13)">NEXT</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- Step 13 -->
+                <div class="step" id="step13">
+                    <div class="form-title text-center mb-4">
+                        <div class="d-flex flex-column gap-4 align-items-center">
+                            <h6>Jane's Contact Information</h6>
+                            <p>We Don't Sell Your Information To Third Parties.</p>
+                            <div class="tab-form w-100">
+                                <div class="form-inputs w-100 d-flex justify-content-center align-items-center gap-3">
+                                    <div class="w-100">
+                                        <input type="text" class="form-control" id="userlif-straddress" placeholder="Street Address" required>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h4 style="width: 100%; text-align: left; color:#002b87;">Send Jane A Link To This Application?</h4>
+
+                            <div class="w-100 d-flex justify-content-start">
+                                <div class="w-50 btn-group" role="group" aria-label="Application">
+                                    <input type="radio" class="btn-check" name="Application" id="Application" autocomplete="off" checked>
+                                    <label class="btn btn-outline-dark px-4" for="Application">
+                                        Yes
+                                    </label>
+                            
+                                    <input type="radio" class="btn-check" name="Application" id="Application" autocomplete="off">
+                                    <label class="btn btn-outline-dark px-4" for="Application">
+                                        No
+                                    </label>
+                                </div>
+                            </div>
+
+
+                            <div class="tab-form w-100">
+                                <div class="form-inputs d-flex justify-content-center align-items-center gap-3">
+                                    <div class="frmInput">
+                                        <input type="text" class="form-control" id="userlif-City" placeholder="City" required>
+                                    </div>
+                                    <div class="frmInput">
+                                        <input type="text" class="form-control" id="userlif-State" placeholder="State" required>
+                                    </div>
+                                    <div class="frmInput">
+                                        <input type="text" class="form-control" id="userlif-ZipCode" placeholder="Zip Code" required>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="btns d-flex justify-content-between gap-3 mt-5 w-100 p-3 bottomSec">
+                                <button type="button" class="btn btn-primary prev-btn" onclick="prevStep(12)">Previous</button>
+                                <button type="button" class="btn btn-danger next-btn" onclick="nextStep(14)">NEXT</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- Step 14 -->
+                <div class="step" id="step14">
+                    <div class="form-title text-center mb-4">
+                        <div class="d-flex flex-column gap-4 align-items-center">
+                            <h6>Jane's Contact Information</h6>
+                            <p>We Don't Sell Your Information To Third Parties.</p>
+
+                            <h4 style="width: 100%; text-align: center; color:#002b87;">Is Jane Currently Employed?</h4>
+
+                            <div class="w-100 d-flex justify-content-center">
+                                <div class="w-50 btn-group" role="group" aria-label="Currently Employed">
+                                    <input type="radio" class="btn-check" name="CurrentlyEmployed" id="CurrentlyEmployed" autocomplete="off" checked>
+                                    <label class="btn btn-outline-dark px-4" for="CurrentlyEmployed">
+                                        Yes
+                                    </label>
+                            
+                                    <input type="radio" class="btn-check" name="CurrentlyEmployed" id="CurrentlyEmployed" autocomplete="off">
+                                    <label class="btn btn-outline-dark px-4" for="CurrentlyEmployed">
+                                        No
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="tab-form w-100 d-flex flex-column gap-4">
+                                <div class="form-inputs">
+                                    <h4 style="width: 100%; text-align: left; color:#002b87;">What Is Jane's Reason For Not Being Employed?</h4>
+                                    <div class="w-100">
+                                        <select class="form-select" aria-label="NotEmployedReason">
+                                            <option selected>Not Employed Reason</option>
+                                            <option value="lif_ReasonOne">Reason One</option>
+                                            <option value="lif_ReasonTwo">Reason Two</option>
+                                            <option value="lif_ReasonThree">Reason Three</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-inputs">
+                                    <h4 style="width: 100%; text-align: left; color:#002b87;">How Long Has Jane Been Retired?</h4>
+                                    <div class="w-100">
+                                        <select class="form-select" aria-label="HowManyYears">
+                                            <option selected>How Many Years</option>
+                                            <option value="lif_YearsOne">Years One</option>
+                                            <option value="lif_YearsTwo">Years Two</option>
+                                            <option value="lif_YearsThree">Years Three</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="btns d-flex justify-content-between gap-3 mt-5 w-100 p-3 bottomSec">
+                                <button type="button" class="btn btn-primary prev-btn" onclick="prevStep(13)">Previous</button>
+                                <button type="button" class="btn btn-danger next-btn" onclick="nextStep(15)">NEXT</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <!-- Step 15 -->
+                <div class="step" id="step15">
+                    <div class="form-title text-center mb-4">
+                        <div class="d-flex flex-column gap-4 align-items-center">
+                            <h6>Policy Ownership</h6>
+                            <p>We Don't Sell Your Information To Third Parties.</p>
+
+                            <h4 style="width: 100%; text-align: center; color:#002b87;">Will Jane Own This Policy?</h4>
+
+                            <div class="w-100 d-flex justify-content-center">
+                                <div class="w-50 btn-group" role="group" aria-label="Policy">
+                                    <input type="radio" class="btn-check" name="Policy" id="Policy" autocomplete="off" checked>
+                                    <label class="btn btn-outline-dark px-4" for="Policy">
+                                        Yes
+                                    </label>
+                            
+                                    <input type="radio" class="btn-check" name="Policy" id="Policy" autocomplete="off">
+                                    <label class="btn btn-outline-dark px-4" for="Policy">
+                                        No
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="tab-form w-100 d-flex flex-column gap-4">
+                                <div class="form-inputs">
+                                    <h4 style="width: 100%; text-align: left; color:#002b87;">Who Will Own This Policy?</h4>
+                                    <div class="w-100">
+                                        <div class="w-100 btn-group" role="group" aria-label="OwnThisPolicy">
+                                            <input type="radio" class="btn-check" name="OwnThisPolicy" id="OwnThisPolicy" autocomplete="off" checked>
+                                            <label class="btn btn-outline-dark px-4" for="OwnThisPolicy">
+                                                Individual
+                                            </label>
+                                    
+                                            <input type="radio" class="btn-check" name="OwnThisPolicy" id="OwnThisPolicy" autocomplete="off">
+                                            <label class="btn btn-outline-dark px-4" for="OwnThisPolicy">
+                                                Trust
+                                            </label>
+
+                                            <input type="radio" class="btn-check" name="OwnThisPolicy" id="OwnThisPolicy" autocomplete="off">
+                                            <label class="btn btn-outline-dark px-4" for="OwnThisPolicy">
+                                                Business
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                            </div>
+
+                            <div class="btns d-flex justify-content-between gap-3 mt-5 w-100 p-3 bottomSec">
+                                <button type="button" class="btn btn-primary prev-btn" onclick="prevStep(14)">Previous</button>
+                                <button type="button" class="btn btn-danger next-btn" onclick="nextStep(16)">NEXT</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <!-- Step 16 -->
+                <div class="step" id="step16">
+                    <div class="form-title text-center mb-4">
+                        <div class="d-flex flex-column gap-4 align-items-center">
+                            <h6>Beneficiary Information</h6>
+                            <p>We Don't Sell Your Information To Third Parties.</p>
+
+                            <div class="tab-form w-100 d-flex flex-column gap-4">
+                                <div class="form-inputs">
+                                    <h4 class="mb-3" style="width: 100%; text-align: center; color:#002b87;">Please Specify Who Will Receive The $500,000 Death Benefit.</h4>
+                                    <div class="w-100">
+                                        <div class="w-100 btn-group" role="group" aria-label="Beneficiary">
+                                            <input type="radio" class="btn-check" name="Beneficiary" id="Beneficiary" autocomplete="off" checked>
+                                            <label class="btn btn-outline-dark px-4" for="Beneficiary">
+                                                Individual
+                                            </label>
+                                    
+                                            <input type="radio" class="btn-check" name="Beneficiary" id="Beneficiary" autocomplete="off">
+                                            <label class="btn btn-outline-dark px-4" for="Beneficiary">
+                                                Trust
+                                            </label>
+
+                                            <input type="radio" class="btn-check" name="Beneficiary" id="Beneficiary" autocomplete="off">
+                                            <label class="btn btn-outline-dark px-4" for="Beneficiary">
+                                                Business
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div class="tab-form w-100">
+                                <div class="form-inputs mb-3 w-100 d-flex justify-content-center align-items-start gap-3">
+                                    <div class="frmInput">
+                                        <input type="text" class="form-control" id="lif-BenefFirstName" placeholder="Beneficiaries First Name" required>
+                                    </div>          
+                                    <div class="frmInput">
+                                        <input type="text" class="form-control" id="lif-BenefLastName" placeholder="Beneficiaries Last Name" required>
+                                    </div>  
+                                </div>
+                                <div class="form-inputs mb-3 w-100 d-flex justify-content-center align-items-start gap-3">
+                                    <div class="frmInput">
+                                        <input type="tel" class="form-control" id="lif-BenefPhoneNumber" placeholder="Beneficiaries Phone Number" required>
+                                    </div>          
+                                    <div class="frmInput">
+                                        <input type="text" class="form-control" id="lif-BenefAmount" placeholder="Beneficiaries Amount" required>
+                                    </div>  
+                                </div>
+                                <div class="form-inputs mb-3 w-100 d-flex justify-content-center align-items-start gap-3">
+                                    <div class="frmInput">
+                                        <input type="date" class="form-control" id="lif-BenefBirthdate" placeholder="Beneficiaries Birthdate" required>
+                                    </div>          
+                                    <div class="frmInput">
+                                        <input type="text" class="form-control" id="lif-BenefSSN" placeholder="Beneficiaries SSN" required>
+                                    </div>  
+                                </div>
+                                <div class="form-inputs mb-3 w-100 d-flex justify-content-center align-items-start gap-3">
+                                    <input type="text" class="form-control" id="lif-BenefAddress" placeholder="Beneficiaries Address" required>
+                                </div>
+                            </div>
+
+
+                            
+
+                            <div class="btns d-flex justify-content-between gap-3 mt-5 w-100 p-3 bottomSec">
+                                <button type="button" class="btn btn-primary prev-btn" onclick="prevStep(15)">Previous</button>
+                                <button type="button" class="btn btn-danger next-btn" onclick="nextStep(17)">NEXT</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <!-- Step 17 -->
+                <div class="step" id="step17">
+                    <div class="form-title text-center mb-4">
+                        <div class="d-flex flex-column gap-4 align-items-center">
+                            <h6>Contingent Beneficiary Information</h6>
+                            <p>You Can Add Optional Contingent Beneficiaries. Contingent Beneficiaries Receive The Benefit If The Primary Beneficiary Is Deceased.</p>
+
+                            
+
+                            <div class="tab-form w-100 d-flex flex-column gap-4">
+                                <div class="form-inputs d-flex flex-column gap-2">
+                                    <p style="width: 100%; text-align: center; font-size: 16px;">No Contingent Beneficiaries?</p>
+                                    <h4 style="width: 100%; text-align: center; color:#002b87;">Please Specify Who Will Receive The $500,000 Death Benefit.</h4>
+                                    <div class="w-100">
+                                        <div class="w-100 btn-group" role="group" aria-label="Beneficiaries">
+                                            <input type="radio" class="btn-check" name="Beneficiaries" id="Beneficiaries" autocomplete="off" checked>
+                                            <label class="btn btn-outline-dark px-4" for="Beneficiaries">
+                                                Individual
+                                            </label>
+                                    
+                                            <input type="radio" class="btn-check" name="Beneficiaries" id="Beneficiaries" autocomplete="off">
+                                            <label class="btn btn-outline-dark px-4" for="Beneficiaries">
+                                                Trust
+                                            </label>
+
+                                            <input type="radio" class="btn-check" name="Beneficiaries" id="Beneficiaries" autocomplete="off">
+                                            <label class="btn btn-outline-dark px-4" for="Beneficiaries">
+                                                Business
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                            </div>
+
+                            <div class="btns d-flex justify-content-between gap-3 mt-5 w-100 p-3 bottomSec">
+                                <button type="button" class="btn btn-primary prev-btn" onclick="prevStep(16)">Previous</button>
+                                <button type="button" class="btn btn-danger next-btn" onclick="nextStep(18)">NEXT</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+                <!-- Step 18 -->
+                <div class="step" id="step18">
+                    <div class="form-title text-center mb-4">
+                        <div class="d-flex flex-column gap-4 align-items-center">
+                            <h6>Jane's Personal Information</h6>
+                            <p>We Don't Sell Your Information To Third Parties.</p>
+
+                            <div class="tab-form w-100">
+                                <div class="form-inputs d-flex justify-content-center align-items-center gap-3">
+                                    <div class="frmInput">
+                                        <input type="text" class="form-control" id="userlif-AnnualIncome" placeholder="Annual Income" required>
+                                    </div>
+                                    <div class="frmInput">
+                                        <input type="text" class="form-control" id="userlif-Assests" placeholder="Assests" required>
+                                    </div>
+                                    <div class="frmInput">
+                                        <input type="text" class="form-control" id="userlif-Liabilities" placeholder="Liabilities" required>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h4 style="width: 100%; text-align: left; color:#002b87;">What Is Jane's Social Security Number And Place Of Birth?</h4>
+
+                            <div class="tab-form w-100">
+                                <div class="form-inputs d-flex justify-content-center align-items-center gap-3">
+                                    <div class="frmInput">
+                                        <input type="tel" class="form-control" id="userlif-SocialSecurityNumber" placeholder="Social Security Number" required>
+                                    </div>
+                                    <div class="frmInput">
+                                        <input type="text" class="form-control" id="userlif-BirthStateCountry" placeholder="Birth State or Country" required>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <h4 style="width: 100%; text-align: left; color:#002b87;">Does Jane Have A Drivers License?</h4>
+
+                            <div class="w-100 d-flex justify-content-start">
+                                <div class="w-50 btn-group" role="group" aria-label="DriversLicense">
+                                    <input type="radio" class="btn-check" name="DriversLicense" id="DriversLicense" autocomplete="off" checked>
+                                    <label class="btn btn-outline-dark px-4" for="DriversLicense">
+                                        Yes
+                                    </label>
+                            
+                                    <input type="radio" class="btn-check" name="DriversLicense" id="DriversLicense" autocomplete="off">
+                                    <label class="btn btn-outline-dark px-4" for="DriversLicense">
+                                        No
+                                    </label>
+                                </div>
+                            </div>
+
+
+                            <h4 style="width: 100%; text-align: left; color:#002b87;">Has Jane Had A Bankruptcy?</h4>
+
+                            <div class="w-100 d-flex justify-content-start">
+                                <div class="w-50 btn-group" role="group" aria-label="Bankruptcy">
+                                    <input type="radio" class="btn-check" name="Bankruptcy" id="Bankruptcy" autocomplete="off" checked>
+                                    <label class="btn btn-outline-dark px-4" for="Bankruptcy">
+                                        Yes
+                                    </label>
+                            
+                                    <input type="radio" class="btn-check" name="Bankruptcy" id="Bankruptcy" autocomplete="off">
+                                    <label class="btn btn-outline-dark px-4" for="Bankruptcy">
+                                        No
+                                    </label>
+                                </div>
+                            </div>
+
+                            
+
+                            <div class="btns d-flex justify-content-between gap-3 mt-5 w-100 p-3 bottomSec">
+                                <button type="button" class="btn btn-primary prev-btn" onclick="prevStep(17)">Previous</button>
+                                <button type="button" class="btn btn-danger next-btn" onclick="nextStep(19)">NEXT</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Step 19 -->
+                <div class="step" id="step19">
+                    <div class="form-title text-center mb-4">
+                        <div class="d-flex flex-column gap-4 align-items-center">
+                            <h6>Payment Information</h6>
+                            <p>We Don't Sell Your Information To Third Parties.</p>
+
+
+                            <h4 style="width: 100%; text-align: left; color:#002b87;">Is The Owner,Jane Doee, Paying The $23.10 Premium Per Month For This Policy?</h4>
+
+                            <div class="w-100 d-flex justify-content-start">
+                                <div class="w-50 btn-group" role="group" aria-label="PaymentInformation">
+                                    <input type="radio" class="btn-check" name="PaymentInformation" id="PaymentInformation" autocomplete="off" checked>
+                                    <label class="btn btn-outline-dark px-4" for="PaymentInformation">
+                                        Yes
+                                    </label>
+                            
+                                    <input type="radio" class="btn-check" name="PaymentInformation" id="PaymentInformation" autocomplete="off">
+                                    <label class="btn btn-outline-dark px-4" for="PaymentInformation">
+                                        No
+                                    </label>
+                                </div>
+                            </div>
+
+
+                            <h4 style="width: 100%; text-align: left; color:#002b87;">Has Jane Had A Bankruptcy?</h4>
+
+                            <div class="w-100 d-flex justify-content-start">
+                                <div class="w-50 btn-group" role="group" aria-label="PartiesBankruptcy">
+                                    <input type="radio" class="btn-check" name="PartiesBankruptcy" id="PartiesBankruptcy" autocomplete="off" checked>
+                                    <label class="btn btn-outline-dark px-4" for="PartiesBankruptcy">
+                                        Yes
+                                    </label>
+                            
+                                    <input type="radio" class="btn-check" name="PartiesBankruptcy" id="PartiesBankruptcy" autocomplete="off">
+                                    <label class="btn btn-outline-dark px-4" for="PartiesBankruptcy">
+                                        No
+                                    </label>
+                                </div>
+                            </div>
+
+                            
+
+                            <div class="btns d-flex justify-content-between gap-3 mt-5 w-100 p-3 bottomSec">
+                                <button type="button" class="btn btn-primary prev-btn" onclick="prevStep(18)">Previous</button>
+                                <button type="button" class="btn btn-danger next-btn" onclick="nextStep(20)">NEXT</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <!-- Step 20 -->
+                <div class="step" id="step20">
+                    <div class="form-title text-center mb-4">
+                        <div class="d-flex flex-column gap-4 align-items-center">
+                            <h6>Sign With Docusign</h6>
+                            <p>We Don't Sell Your Information To Third Parties.</p>
+
+
+                            <h4 style="width: 100%; text-align: left; color:#002b87;">Would Jane Dow Like To Preview Application, Sign Now Or By Email?</h4>
+
+                            <div class="w-100 d-flex justify-content-start">
+                                <div class="w-50 btn-group" role="group" aria-label="Docusign">
+                                    <input type="radio" class="btn-check" name="Docusign" id="Docusign" autocomplete="off" checked>
+                                    <label class="btn btn-outline-dark px-4" for="Docusign">
+                                        Yes
+                                    </label>
+                            
+                                    <input type="radio" class="btn-check" name="Docusign" id="Docusign" autocomplete="off">
+                                    <label class="btn btn-outline-dark px-4" for="Docusign">
+                                        No
+                                    </label>
+                                </div>
+                            </div>
+
+
+                            <div class="btns d-flex justify-content-between gap-3 mt-5 w-100 p-3 bottomSec">
+                                <button type="button" class="btn btn-primary prev-btn" onclick="prevStep(19)">Previous</button>
+                                <button type="button" class="btn btn-danger next-btn" onclick="nextStep(21)">NEXT</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Step 21 -->
+                <div class="step" id="step21">
+                    <div class="form-title text-center mb-4">
+                        <div class="d-flex flex-column gap-4 align-items-center">
+                            <h6>Congratulations!</h6>
+                            <p>Track Your Application Status Below</p>
+
+                            <div class="d-flex gap-3 align-items-center tabsbar">
+                                <p class="tabLslide">
+                                    Awaiting Signature
+                                </p>
+                                <p class="tabLslide">
+                                    Gathering Requirements
+                                </p>
+                                <p class="tabLslide">
+                                    Gathering Requirements
+                                </p>
+                            </div>
+
+                            <div class="statusSec">
+                                <div class="statusSecItem">
+                                    <div class="SecItemDetails">
+                                        <span>Your Application is</span>
+                                        <h5>Pending</h5>
+                                    </div>
+                                    <div class="ItemDetailsBtm">
+                                        <span>Policy Number</span>
+                                        <p>Pending</p>
+                                    </div>
+                                </div>
+                                <div class="statusSecItem">
+                                    <div class="SecItemDetails">
+                                        <span>Death Benefits</span>
+                                        <h5>$500,000</h5>
+                                    </div>
+                                    <div class="ItemDetailsBtm">
+                                        <span>Product Number</span>
+                                        <p>SAT-10 Year</p>
+                                    </div>
+                                </div>
+                                <div class="statusSecItem">
+                                    <div class="SecItemDetails">
+                                        <img src="assets/newLogo.webp">
+                                    </div>
+                                    <div class="ItemDetailsBtm">
+                                        <span>State</span>
+                                        <p>Arizona</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="w-100">
+                                <h4 style="width: 100%; text-align: left; color:#002b87;">Parties</h4>
+
+                                <div class="PartiesSec">
+                                    <p>Jane Doew</p>
+                                    <p>Owner, Insured, and Payor</p>
+                                </div>
+                                <div class="PartiesSec">
+                                    <p>Jane Doew</p>
+                                    <p>Primary Beneficiary (100%)</p>
+                                </div>
+                            </div>
+
+                            <div class="w-100">
+                                <h4 style="width: 100%; text-align: left; color:#002b87;">Tasks</h4>
+
+                                <div class="PartiesSec">
+                                    <p>The next step is to haveJane Doe s open their email to eSign their application using the last four digits 
+                                        of their SSN as their access code.</p>
+                                </div>
+                                <div class="PartiesSec">
+                                    <p>After Jane Doe s has signed, Jane Doe will need to complete their exam on Mon, Mar 24, 2025 at 9:45 PM.</p>
+                                </div>
+                            </div>
+
+                            
+                        </div>
+                    </div>
+                </div>
 
                <!-- Form -->
             </form>

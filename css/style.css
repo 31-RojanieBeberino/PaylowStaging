@@ -682,6 +682,9 @@ select{
   }
 
 
+
+
+
   .form-inputs p{
     font-family: 'Outfit';
     font-size: 14px;
@@ -693,6 +696,80 @@ select{
     width: 50%!important;
   }
   
+
+  .tabLslide{
+    padding: 5px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    color:#000;
+    background-color: #DDDDDD;
+    flex: auto;
+    border-radius: 5px;
+  }
+
+
+  .statusSec{
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .statusSecItem{
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    justify-content: space-between;
+    gap:10px;
+  }
+
+  .SecItemDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+  }
+
+  .SecItemDetails img{
+    width: 150px;
+  }
+
+  .ItemDetailsBtm{
+    padding:5px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:5px;
+    background-color: #dddddd4d;
+    border-radius: 5px;
+  }
+
+  .ItemDetailsBtm p{
+    font-size: 14px;
+    color:#000;
+  }
+
+  .PartiesSec{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    background-color: #fff;
+    margin-bottom: 15px;
+  }
+
+  .PartiesSec p{
+    font-weight: 600;
+    font-family: 'Poppins';
+    font-size: 17px;
+  }
 
 
   .userNumber{
